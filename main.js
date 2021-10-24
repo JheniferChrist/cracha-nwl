@@ -24,8 +24,8 @@ const LinksSocialMedia = {
   .then(data => {
     userName.textContent = data.name,
     UserBio.textContent = data.bio,
-    userLink.href = data.html_url   
-    userImage.scr = data.avatar_url
+    userLink.href = data.html_url,   
+    userImage.scr = data.avatar_url,
     userLogin.textContent = data.login
   })
 }
