@@ -25,7 +25,7 @@ const LinksSocialMedia = {
     userName.textContent = data.name,
     UserBio.textContent = data.bio,
     userLink.href = data.html_url,   
-    userImage.scr = data.avatar_url,
+    userImage.src = data.avatar_url,
     userLogin.textContent = data.login
   })
 }
